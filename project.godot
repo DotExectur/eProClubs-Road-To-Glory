@@ -13,9 +13,15 @@ config_version=5
 config/name="eProClubs: Road To Glory"
 config/features=PackedStringArray("4.7", "Mobile")
 config/icon="res://icon.svg"
+run/main_scene="res://scenes/road_to_glory_arena.tscn"
 
 [display]
 
+window/size/viewport_width=450
+window/size/viewport_height=900
+window/size/window_width_override=450
+window/size/window_height_override=900
+window/handheld/orientation=1
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
 
